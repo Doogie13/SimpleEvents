@@ -2,7 +2,7 @@
 A simple Java EventManager using lambdas
 
 ## Gradle
-```
+```gradle
 repositories {
     maven {
         name = "tigr.dev"
@@ -16,7 +16,7 @@ dependencies {
 ```
 
 ## Java Example
-```
+```java
 public class Test {
 	static EventManager EVENT_MANAGER = new EventManager(); // Create new EventManager
 
